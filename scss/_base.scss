@@ -44,7 +44,7 @@ figcaption {
 //start nav styling
 
 nav {
-    background-color:#510e6c;
+    background-color:#dfd7e3;
     border: 1px solid $background-color;
     //border-radius: 6px;
     border-bottom-left-radius: 6px; 
@@ -80,7 +80,7 @@ a{
 }
 
 a:hover {
-    color: lighten($color,40%);
+    color: lighten($color,20%);
     @include body-font-bold;
     transition: color 350ms linear;
 }
@@ -95,7 +95,7 @@ h1, h2, h3 {
 
 header h1 {
     @include fontSize(75px);
-     text-align: center
+    text-align: center
     margin: 0;
    
 }
